@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1280;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -35,7 +35,7 @@ nav {
     align-items: center;
     gap: 56;
     padding: 10px 0px;
-    margin: 0px 157px;
+    margin: 40px 157px;
 }
 
 .search-parent {
@@ -76,11 +76,14 @@ nav {
     justify-content: space-between;
     background-color: #FEEAE9;
     border-radius: 12px;
-    padding: 46px;
-    margin: 0px 111px;
+    padding: 46px 46px;
     align-items: center;
     gap: 5px;
 
+}
+.banner-right img{
+    width: 400px;
+    height: 378px;
 }
 
 .banner h1 {
@@ -108,7 +111,9 @@ nav {
     padding: 0px 156px;
     margin: 64px auto;
 }
-
+.categories-container h2{
+    padding-bottom: 24px;
+}
 .categories-card-container {
     display: flex;
     gap: 26px;
@@ -152,7 +157,7 @@ nav {
 /* Shoes */
 
 .shoes{
-  padding: 50px 156px;
+  padding: 50px 0px;
 }
 .shoes-backpack-title-section{
     display: flex;
