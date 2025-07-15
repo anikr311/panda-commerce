@@ -1,0 +1,231 @@
+/* Common css */
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1280;
+    margin: auto;
+}
+
+a .panda-btn {
+    position: relative;
+    border-radius: 6px;
+    padding: 15px 30px;
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.common-section-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin: 0px;
+}
+
+/* Custom CSS */
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56;
+    padding: 10px 0px;
+    margin: 0px 157px;
+}
+
+.search-parent {
+    position: relative;
+    color: rgb(186, 186, 186);
+}
+
+.search-parent input {
+    border-radius: 66px;
+    width: 500px;
+    padding: 15px 30px;
+    background: rgb(241, 241, 241);
+    border: none;
+}
+
+.search-parent i {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    border-radius: 12px;
+    padding: 46px;
+    margin: 0px 111px;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #1F1F1F;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+    width: 456px;
+}
+
+.banner-price {
+    font-size: 41px;
+    font-weight: 500;
+    color: #FF136F;
+}
+
+/* Category section */
+.categories-container{
+    padding: 0px 156px;
+    margin: 64px auto;
+}
+
+.categories-card-container {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    width: 100%;
+}
+
+.category-card {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+}
+
+.category-card h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.category-card-1 {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+}
+
+.category-card-2 {
+    /* Linear */
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.category-card-3  {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+/* Shoes and Bag section */
+.shoes-backpack-parent{
+  background-color: #F4F4F4;
+}
+/* Shoes */
+
+.shoes{
+  padding: 50px 156px;
+}
+.shoes-backpack-title-section{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes-backpack-title-section p{
+    color: #FF9D00;
+}
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.shoe-card {
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+.shoe-card h3 {
+     font-weight: 600;
+    font-size: 24px;
+    color: #1F1F1F;
+}
+.shoe-card p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+.card-price{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px 0px;
+    color: rgb(26, 26, 26);
+}
+.shoe-card img {
+    width: 336px;
+    height: 202px;
+}
+.shoe-card .panda-btn {
+    background: #000000;
+}
+/* Contact */
+.contact-us-parent{
+    text-align: center;
+    background: #FFF2F1;
+    padding: 146px 265px;
+    margin: 75px 117px;
+    border-radius: 15px;
+}
+.contact-inp-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+.contact-inp-btn-parent input{
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 152px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.contact-inp-btn-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.contact-us-parent p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-top: 0;
+    margin-bottom: 16px;
+} 
